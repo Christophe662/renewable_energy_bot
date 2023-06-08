@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from chatbot2 import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('/home/ubuntu/renewable_energy_bot/intents.json', 'r') as f:
+with open('intents.Json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
