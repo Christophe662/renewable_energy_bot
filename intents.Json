@@ -1,0 +1,209 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Good to see you!",
+          "Nice to meet you!",
+          "Greetings!",
+          "Hey, how can I assist you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care",
+          "Farewell"
+         ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Goodbye!",
+          "Farewell!",
+          "Take care!",
+          "See you later!",
+          "Have a nice day!",
+          "Until next time!"
+        ]
+      },
+      {
+     "tag": "types of energy sources",
+     "patterns": [
+       "What are the different types of energy sources?",
+       "The different sources of energy are?",
+       "What are the main sources of energy?"
+
+      ],
+     "responses": [
+        "The main sources of energy include fossil fuels (such as coal, oil, and natural gas), nuclear energy, renewable energy sources (such as solar power, wind power, hydroelectric power, geothermal energy, and biomass), and non-renewable sources like uranium for nuclear power.",
+        "There are several types of energy sources, including fossil fuels, nuclear energy, renewable energy sources, and non-renewable sources.",
+        "The main sources of energy are fossil fuels, nuclear energy, and renewable energy sources."
+     ]
+     }, 
+     {
+     "tag": "Hydroelectric energy",
+     "patterns": [
+       "What is the scientific definition of hydroelectricity?",
+       "Define hydroelectricity in a scientific context",
+       "How is hydroelectricity defined scientifically?",
+       "What is hydroelectricity?",
+       "Define hydroelectricity",
+       "How would you describe hydroelectricity?",
+       "What is hydroelectric power?",
+        "How does hydroelectric power work?",
+        "Tell me about hydroelectric power",
+        "Explain hydroelectricity"
+
+      ],
+     "responses": [
+        "Hydroelectricity, scientifically known as hydroelectric power, is a form of renewable energy generation that harnesses the potential energy of water in motion to produce electricity. It involves the utilization of water flow or falling water to rotate turbines, which in turn drive generators to convert the mechanical energy into electrical energy. This process is based on fundamental principles of physics and electrical engineering, and it plays a significant role in sustainable energy production worldwide.",
+        "Hydroelectricity refers to the generation of electricity using the power of flowing or falling water. It involves the conversion of the kinetic energy of water into electrical energy through the use of turbines and generators. Hydroelectric power plants typically utilize dams to store water in reservoirs, and when the water is released, it flows through turbines, spinning them to generate electricity.",
+        "Hydroelectric power, also known as hydroelectricity, is a form of renewable energy that harnesses the power of flowing or falling water to generate electricity. It is one of the most widely used and established sources of renewable energy worldwide.",
+        "The process of generating hydroelectric power involves several components: Dam: A dam is constructed across a river or water source to create a reservoir, which stores water.  Intake: Water from the reservoir is directed through an intake, where it flows into the power plant. Turbines: The force of the flowing water rotates large turbines, which are connected to generators. Generators: The rotating turbines drive generators, converting mechanical energy into electrical energy. Transmission: The generated electricity is transmitted through power lines to homes, businesses, and industries.",
+        "Hydroelectric power plants can vary in size, from small-scale installations to large-scale facilities. The amount of electricity produced depends on factors such as the volume of water flow, the height of the dam, and the efficiency of the turbines.",
+        "Hydroelectric power offers several advantages: Renewable: It relies on the continuous water cycle, making it a sustainable and renewable energy source. Emission-free: It produces no greenhouse gas emissions or air pollutants during operation.  Reliable: It provides a consistent and dependable source of electricity, as water flow can be controlled. Long lifespan: Hydroelectric power plants have a long operational life, typically lasting several decades."
+   
+     ]
+     }, 
+     {   
+     
+    "tag": "Elolian energy",
+    "patterns": [
+            "What is the scientific definition of wind energy?",
+            "Define wind energy in a scientific context",
+            "How is wind energy defined scientifically?",
+            "What is wind energy?",
+            "Define wind energy",
+            "How would you describe wind energy?"
+           ],
+    "responses": [
+             "Wind energy, scientifically known as wind power, is a form of renewable energy generation that harnesses the kinetic energy of moving air to produce electricity. It involves the use of wind turbines, which have rotating blades that capture the energy from the wind. The rotating blades drive a generator, converting the mechanical energy into electrical energy. Wind energy is a result of natural atmospheric processes and is considered a sustainable and clean source of power."
+             
+    ]
+    }, 
+    {  
+           
+     "tag": "Nuclear energy",
+     "patterns": [
+                "What is the scientific definition of nuclear energy?",
+                "Define nuclear energy in a scientific context",
+                "How is nuclear energy defined scientifically?",
+                "What is nuclear energy?",
+                "Define nuclear energy",
+                "How would you describe nuclear energy?"
+
+                 ],
+    "responses": [
+        "Nuclear energy is the energy that is released during nuclear reactions, specifically through processes like nuclear fission or fusion. Nuclear fission involves the splitting of atomic nuclei, typically of heavy elements like uranium or plutonium, which releases a large amount of energy. This energy is harnessed in nuclear power plants to generate electricity. Nuclear fusion, on the other hand, involves the combining of atomic nuclei, such as in the fusion of hydrogen isotopes like deuterium and tritium, which also releases a significant amount of energy. Nuclear energy is known for its high energy density and is considered a potent source of electricity, although it comes with safety and environmental concerns."
+                   
+    ]
+    },    
+    
+   {  
+               
+    "tag": "Solar energy",
+    "patterns": [
+                    "What is the scientific definition of solar energy?",
+                    "Define solar energy in a scientific context",
+                    "How is solar energy defined scientifically?",
+                    "What is solar energy?",
+                    "Define solar energy",
+                    "How would you describe solar energy?"
+
+                     ],
+    "responses": [
+            "Solar energy refers to the radiant light and heat energy emitted by the Sun. It is a renewable and abundant source of energy that can be converted into usable forms, such as electricity and heat. The process of harnessing solar energy involves the use of solar panels or photovoltaic cells, which capture the sunlight and convert it into electrical energy through the photovoltaic effect. Solar energy is considered clean, sustainable, and environmentally friendly, making it an increasingly popular alternative to traditional fossil fuel-based energy sources."
+                       
+     ]
+     },  
+     {  
+                
+     "tag": "Energy include fossil fuel",
+     "patterns": [
+                     "What is fossil fuel energy?",
+                     "Define fossil fuel energy",
+                     "Explain fossil fuel energy"
+
+                      ],
+     "responses": [
+             "Fossil fuel energy refers to the energy obtained from the combustion of fossil fuels, which are derived from ancient organic remains such as plants and animals. These fossil fuels include coal, oil, and natural gas. They are formed over millions of years through geological processes that convert organic matter into hydrocarbon-rich deposits. When these fossil fuels are burned, they release stored energy in the form of heat, which can be used to generate electricity, power vehicles, and provide heat for various applications. Fossil fuel energy has been a major source of energy for human civilization, but its use contributes to environmental concerns due to greenhouse gas emissions and the finite nature of these resources."
+                        
+      ]
+      }, 
+     
+     {
+        "tag": "biomass_energy",
+        "patterns": [
+            "What is biomass energy?",
+            "How does biomass energy work?",
+            "Tell me about biomass energy",
+            "Explain biomass power"
+            ],
+        "responses": [
+            "Biomass energy is derived from organic matter, such as plants, agricultural residues, and wood waste. It is a renewable source of energy that can be used for heating, electricity generation, and fuel production. Biomass can be burned directly to produce heat or converted into biofuels through processes like fermentation or pyrolysis. The combustion or conversion of biomass releases stored energy in the form of heat or electricity. Biomass energy is considered carbon-neutral since the carbon dioxide released during combustion is part of the natural carbon cycle and can be reabsorbed by plants through photosynthesis."
+        ]
+        },
+
+      
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "meteo_temp",
+        "patterns": [
+            "What's the weather like in?",
+            "What's the temperature in?",
+            "How's the weather today in?",
+            "Weather in?"
+        ],
+        "responses": [
+            "The weather is {description} and the temperature is {temperature} deg C in {city}."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "I want to hear a joke",
+          "Do you know any jokes?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!",
+          "Here's a classic one: Why did the chicken go to the seance? To talk to the other side!",
+          "Alright, here's a joke: What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+          "Here's a funny one: Why don't skeletons fight each other? They don't have the guts!",
+          "How about this joke: Why don't scientists trust stairs? Because they're always up to something!",
+          "Here's a silly one: Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "Alright, here's a joke: What do you call fake spaghetti? An impasta!",
+          "Here's a classic: Why don't bicycles fall over? Because they're two-tired!",
+          "How about this one: Why don't eggs tell jokes? Because they might crack up!",
+          "Here's a joke for you: What's brown and sticky? A stick!"
+        ]
+      }
+    ]
+  }
