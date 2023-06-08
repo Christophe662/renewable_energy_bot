@@ -11,6 +11,10 @@ from chat import get_response ,extract_city
 
 app= Flask(__name__)
 
+if __name__ == '__main__':
+    # Ligne pour spécifier le port
+    app.run(port=8000)  # Utilisez le port de votre choix, par exemple 8000
+
 @app.get("/")
 def index_get():
     return render_template("base.html")
