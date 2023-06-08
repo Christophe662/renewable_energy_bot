@@ -13,7 +13,7 @@ app= Flask(__name__)
 
 if __name__ == '__main__':
     # Ligne pour spécifier le port
-    app.run(port=8000)  # Utilisez le port de votre choix, par exemple 8000
+     app.run(host='0.0.0.0', port=8000)
 
 @app.get("/")
 def index_get():
